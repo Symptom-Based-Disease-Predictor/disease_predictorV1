@@ -3,7 +3,7 @@ function Header(){
         <header>
             <h1>Header section</h1>
             <nav>
-                <ul>
+                <ul class="Navigation">
                     <li><a href = "#">Home</a></li>
                     <li><a href = "#">About</a></li>
                     <li><a href = "#">Services</a></li>
@@ -11,6 +11,7 @@ function Header(){
                 </ul>
             </nav>
         </header>
+
     )
 }
 export default Header
